@@ -1,0 +1,40 @@
+#p
+{
+    background-color: antiquewhite;
+    height: 350px;
+    width: 400px;
+    float: left;
+    margin: 40px;
+}
+#q
+{
+  background-color: rgb(62, 238, 229);
+    height: 350px;
+    width: 820px;
+    float: right;
+    margin: 40px;  
+}
+#r
+{
+   background-color: rgb(230, 37, 3);
+    height: 350px;
+    width: 400px;
+    float: left;
+    margin: 30px;    
+}
+#s
+{
+     background-color: rgb(223, 21, 139);
+    height: 350px;
+    width: 380px;
+    float: left;
+    margin: 30px;  
+}
+#t
+{
+     background-color: rgb(27, 211, 52);
+    height: 350px;
+    width: 380px;
+    float: right;
+    margin: 30px;  
+}

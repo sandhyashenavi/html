@@ -1,0 +1,43 @@
+#h
+{
+     background-color: rgb(62, 238, 229);
+    height: 400px;
+    width: auto; 
+}
+#j
+{
+    background-color: rgb(219, 73, 224);
+    height: 400px;
+    width: 467px; 
+    float: left;
+} 
+#k
+{
+    background-color: rgb(231, 71, 71);
+    height: 400px;
+    width: 467px; 
+    float: left;
+}
+#l
+{
+    background-color: rgb(238, 162, 62);
+    height: 400px;
+    width: 467px;
+    float: right;
+}
+#v
+{
+    background-color:hotpink;
+    height: 400px;
+    width: auto;
+    padding-bottom: 400px;  
+}
+#z     
+{
+   background-image: url(images.jpg);
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    float: right;
+    background-repeat: no-repeat;
+}
