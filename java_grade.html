@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        var cpp,java,python;
+        cpp=parseInt(prompt("Enter the marks of cpp ="+cpp));
+        java=parseInt(prompt("Enter the marks of java ="+java));
+        python=parseInt(prompt("Enter the marks of python ="+python));
+
+        var total=cpp + java + python;
+        document.write("Total marks of subject="+total);
+
+        var avg=total/3;
+        document.write("<br>average="+avg);
+
+        if(avg>=90 && avg<=100)
+    {
+        document.write("Destiction");
+    }
+    else if(avg>=80 && avg<=90)
+    {
+        document.write("Grade A");
+    }
+    else if(avg>=65 && avg<=80)
+    {
+        document.write("Grade B");
+    }
+    else if(avg>=40 && avg<=65)
+    {
+        document.write("Grade C");
+    }
+    else
+    {
+        document.write("Fail..!");
+    }
+    </script>
+</body>
+</html>

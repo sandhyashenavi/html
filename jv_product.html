@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function product()
+      {
+        var price,quantity,gst,total,a;
+        price=parseInt(document.getElementById("second").value);
+        quantity=parseInt(document.getElementById("third").value);
+       
+        gst=parseInt(document.getElementById("slc").value);
+        total=price*quantity;
+    
+        gst=(total*gst)/100;
+        a=total+gst;
+         document.getElementById("answer").value=a;
+      }
+    </script>
+    <p>Enter the product name::<input type="text" id="first" ></p>
+    <p>Enter the product price:<input type="text" id="second" ></p>
+    <p>Enter the product quantity:<input type="text" id="third" ></p>
+     <p>Enter gst: <select id="slc">
+                    <option value="0">----select----</option>
+                    <option value="1">5</option>
+                    <option value="2">10</option>
+                    <option value="3">18</option>
+                    </select>
+    </p>
+    <button onclick="product()">Save</button>
+    <p>Total=<input id="answer" type="text"></p>
+</body>
+</html>
